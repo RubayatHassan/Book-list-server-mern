@@ -1,6 +1,6 @@
 import express from 'express';
-import { CowController } from './cow.controllers';
-import { BookValidation } from './cow.validation';
+import { CowController } from './book.controllers';
+import { BookValidation } from './book.validation';
 import { requestValidation } from '../../middleware/validationRequest';
 
 const router = express.Router();

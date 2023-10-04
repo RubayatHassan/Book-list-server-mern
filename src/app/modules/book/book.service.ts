@@ -8,7 +8,7 @@ import { CowSearchAbleFields } from './book.constants';
 import { paginationHelper } from '../../../helpers/paginationHelpers';
 import { SortOrder } from 'mongoose';
 
-import { Book } from './cow.model';
+import { Book } from './book.model';
 
 const createBook = async (payload: IBook): Promise<IBook | null> => {
   const result = await Book.create(payload);
